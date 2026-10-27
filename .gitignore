@@ -1,0 +1,19 @@
+# KiCad geçici / kişisel dosyalar
+*.kicad_prl
+~*.lck
+*.lck
+*.bak
+*-bak
+*-backups/
+_autosave-*
+fp-info-cache
+*.round-tracks-config
+.history/
+
+# Üretim çıktılarının açılmış hali (zip'i yeterli)
+gerber/
+
+# İşletim sistemi
+Thumbs.db
+desktop.ini
+.DS_Store
