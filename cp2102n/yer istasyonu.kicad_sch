@@ -10511,25 +10511,25 @@
 		(dnp no)
 		(uuid "aa429f14-ae82-4dc0-9e51-b1cf7a2dc696")
 		(property "Reference" "R12"
-			(at 170.18 120.65 0)
+			(at 170.18 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 170.18 123.19 0)
+			(at 170.18 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -10592,25 +10592,25 @@
 		(dnp no)
 		(uuid "c2db5028-e9d3-4f08-a6b7-b5ae42b3c08c")
 		(property "Reference" "D2"
-			(at 171.45 129.54 0)
+			(at 171.45 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "FYLS-0805KPGC"
-			(at 171.45 132.08 0)
+			(at 171.45 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"

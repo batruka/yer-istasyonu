@@ -54,10 +54,12 @@ altta dolu GND. 1.6 mm FR4 (εr ≈ 4.5) için yaklaşık 50 Ω.
 
 ## Bilinen durumlar
 
-- **`uretim/` altındaki `gerber.zip`, `pcb.pdf`, `sema.pdf` ve `3d_ust.png` D2/R12 eklenmeden
-  önceki karta ait.** Kart bastırmadan önce KiCad'den yeniden alınmalı.
-- DRC (D2/R12'den önce): eksik bağlantı yok. E220'nin 9. pini (GND) döküme tek kolla bağlı;
-  çalışmayı etkilemez. D2/R12 eklendikten sonra KiCad'de DRC henüz çalıştırılmadı.
+- DRC (KiCad 10.0.8, D2/R12 dahil): eksik bağlantı ve boşluk hatası yok. E220'nin 9. pini
+  (GND) döküme tek kolla bağlı; çalışmayı etkilemez.
+- Baskı (silkscreen) uyarıları: C12 ile C13'ün etiketleri üst üste biniyor, D2 etiketi
+  kendi çerçevesine değiyor. Sadece görünüş; elektriksel etkisi yok.
 - C5 (10 µF) ve C6 (100 nF) şemada var, PCB'de yok.
+- `3d_ust.png`: USB-C (J3) ve SMA (J4) için KiCad kütüphanesinde 3D model olmadığından bu
+  ikisi gövdesiz görünür.
 - Asitle üretimde vialar kaplamasızdır: her viaya tel geçirip iki yüzden lehimleyin
   (vialar 0.6 / 0.3 mm).
